@@ -1,1 +1,3 @@
-07:29,01.12.2025
+git config --global user.name maksim.rubets
+git config --global user.email maksim.rubets@gmail.com
+07:47, 01.12.2025
