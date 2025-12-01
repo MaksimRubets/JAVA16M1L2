@@ -7,3 +7,20 @@ git config --global user.email "maksim.rubets@gmail.com"
 4) git commit -m "commit msg" -> зробити commit
 5) git log -> відобразити log комітів
 6) git diff Head^ Head -> перегляд змін між комітами
+
+7) git remote add origin git@github.com:MaksimRubets/JAVA16M1L2.git -> 
+	git remote add -> ця команда створює посилання на віддалений репозиторій
+	origin -> це стандартна назва (аліас) для першого та основного віддаленого репозиторію
+	git@github.com:... -> це URL-адреса твого репозиторію на GitHub, яка використовує протокол SSH (Secure Shell)
+
+8) git remote -v -> перевіряє список віддалених репозиторіїв та їхні URL-адреси
+	Вивід: Підтверджує, що аліас origin налаштований як для отримання (fetch), так і для надсилання (push) даних
+
+9) git push -u origin main ->
+	git push: Надсилає твої локальні фіксації на віддалений сервер
+	-u (або --set-upstream): Цей прапорець встановлює зв'язок між твоєю локальною гілкою main і віддаленою гілкою origin/main. Це означає, що наступного разу ти зможеш просто використовувати git push (без вказівки origin main)
+	Результат:
+	Git підрахував твої об'єкти (objects: 24), стиснув їх і відправив.
+	Рядок * [new branch] main -> main підтверджує, що локальна гілка main була створена як віддалена гілка main на GitHub.
+	branch 'main' set up to track 'origin/main'. підтверджує встановлення зв'язку
+
