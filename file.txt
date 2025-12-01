@@ -24,3 +24,4 @@ git config --global user.email "maksim.rubets@gmail.com"
 	Рядок * [new branch] main -> main підтверджує, що локальна гілка main була створена як віддалена гілка main на GitHub.
 	branch 'main' set up to track 'origin/main'. підтверджує встановлення зв'язку
 
+10) ..
