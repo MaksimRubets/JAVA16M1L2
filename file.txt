@@ -6,4 +6,4 @@ git config --global user.email "maksim.rubets@gmail.com"
 3) git add filename -> додати файл в staging area
 4) git commit -m "commit msg" -> зробити commit
 5) git log -> відобразити log комітів
-6) git diff Head^ Head
+6) git diff Head^ Head -> перегляд змін між комітами
