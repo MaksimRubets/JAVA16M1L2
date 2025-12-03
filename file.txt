@@ -102,3 +102,7 @@ git config --global user.email "maksim.rubets@gmail.com"
 
 
 14) ..
+
+
+
+15) ..
